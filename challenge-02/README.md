@@ -75,7 +75,7 @@ function conditional(x, y, z) {
  if(x != undefined && y === undefined && z === undefined){
    return x;
 }
-   else if(x !== undefined && y !== undefined && z === undefined){
+   else if(x !== undefined && y !== undefined && z === undefined){ 
      return x + y;
   } else if (x !== undefined && y !== undefined && z !== undefined){
       return (x + y)/z;
