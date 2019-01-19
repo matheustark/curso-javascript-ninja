@@ -184,16 +184,20 @@ pessoa.apresentacao = function(){
    
     if(pessoa.sexo === 'Masculino'){
         fraseSexo = 'Olá, eu sou o ';
-    } else if (pessoa.sexo === 'Feminino') {
+    } 
+    if (pessoa.sexo === 'Feminino') {
        fraseSexo = 'Olá, eu sou a ';
-    }
-    else if(pessoa.idade === 1){
-        fraseIdade = ' ano '
-    } else if (pessoa.idade > 1){
-        fraseIdade = ' anos ' 
-    } else if (pessoa.caminhandoQuantosMetros === 1){
+    }   
+    if(pessoa.idade === 1){
+        fraseIdade = ' ano'
+    } 
+    if (pessoa.idade > 1){
+        fraseIdade = ' anos' 
+    } 
+    if (pessoa.caminhandoQuantosMetros === 1){
         fraseMetros = ' metro!'
-    } else if (pessoa.caminhandoQuantosMetros > 1){
+    } 
+     if (pessoa.caminhandoQuantosMetros > 1){
         fraseMetros = ' metros!'
     }
 
@@ -202,5 +206,6 @@ pessoa.apresentacao = function(){
 }
 
 // Agora, apresente-se ;)
-?
+'Olá, eu sou o Matheus, tenho 26 anos , meu peso é 74 e, só hoje, eu já caminhei 23 metros!'
+
 ```
